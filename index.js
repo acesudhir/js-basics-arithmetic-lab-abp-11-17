@@ -16,4 +16,4 @@ let randomNumber = Math.floor(Math.random()*21);
 
 let randomInteger = Math.round(randomNumber);
 
-let randomUserID = number.isInteger(randomNumber);
+let randomUserID = Math.floor((Math.random()*1000000020)+1000000001).isInteger();
