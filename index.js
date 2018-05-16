@@ -16,4 +16,6 @@ let randomNumber = Math.floor(Math.random()*21);
 
 let randomInteger = Math.round(randomNumber);
 
+min = Math.ceil(1000000001);
+max = Math.floor(1000000020);
 let randomUserID = (Math.floor(Math.random()*(max-min+1))+min).isInteger();
