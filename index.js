@@ -14,4 +14,4 @@ let ageIsValid = Number.isInteger();
 
 let randomNumber = Math.floor(Math.random()*21);
 
-let randomInteger ;
+let randomInteger = Math.round(randomNumber);
